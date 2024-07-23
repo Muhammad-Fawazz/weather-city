@@ -1,0 +1,136 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the weather app */
+.container {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header styling */
+.header {
+    background: #03a9f4;
+    color: white;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Main content styling */
+.main-content {
+    padding: 20px 20px 40px;
+}
+
+/* Search bar styling */
+.search {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px;
+    background: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background: #0288d1;
+}
+
+/* Weather information styling */
+.weather-info {
+    /* display: none; Hide by default, will be shown by JS */
+    margin-top: 20px;
+}
+
+.city-name {
+    font-size: 28px;
+    margin-bottom: 10px;            
+    color: #333;
+}
+
+.temperature {
+    font-size: 60px;
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.weather-description {
+    font-size: 24px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.details-left, .details-center, .details-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.detail-item-main {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.detail-item-sub {
+    font-size: 14.5px;
+    color: #777;
+}
+
+/* Footer styling */
+.footer {
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #777;
+    margin: 0;
+}
+

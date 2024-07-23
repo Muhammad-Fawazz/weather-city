@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Weather App</h1>
+        </header>
+        <main class="main-content">
+            <div class="search">
+                <input type="text" id="city-input" class="search-input" placeholder="Enter city name (Help from google)">
+                <button class="search-button" value="Mardan">Search</button>
+            </div>
+            <div class="weather-info">
+                <h2 class="city-name">City Name</h2>
+                <div class="temperature">25°C</div>
+                <div class="weather-description">Clear Sky</div>
+                <div class="weather-details">
+                    <div class="details-more-left">
+                        <div class="detail-item-main">Min Temp</div>
+                        <div class="detail-item-sub minTemp">12.75°C</div>
+                    </div>
+                    <div class="details-left">
+                        <div class="detail-item-main">Feels Like</div>
+                        <div class="detail-item-sub feel-like">13.33°C</div>
+                    </div>
+                    <div class="details-center">
+                        <div class="detail-item-main">Max Temp</div>
+                        <div class="detail-item-sub max-temp">15.21°C</div>
+                    </div>
+                    <div class="details-right">
+                        <div class="detail-item-main">Humidity</div>
+                        <div class="detail-item-sub humidity">68%</div>
+                    </div>
+                    <div class="details-more-right">
+                        <div class="detail-item-main">Wind Speed</div>
+                        <div class="detail-item-sub wind-speed">10 km/h</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Powered by OpenWeatherMap</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
